@@ -1,0 +1,106 @@
+.cart-section{
+    background-color: #f6f6f6;
+}
+
+section table{
+    width: 80%;
+}
+
+.title-box{
+    border: 1px solid #ddd9d9;
+    margin: 100px auto;
+    border-collapse: collapse;
+} 
+
+
+.titles{
+    background-color: #f7941d;
+    color: white;
+    font-weight: 600;
+}
+
+th, td{
+    padding: .75rem;
+    text-align: center;
+}
+
+th{
+    font-size: 15px;
+}
+
+td{
+    background-color: white;
+}
+
+tr img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+
+.text{
+    text-align: left;
+}
+
+
+
+.counter-box{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd9d9;
+    width: 100%;
+    align-items: center;
+}
+
+.counter-box button{
+    border: none;
+    background: none;
+    font-size: 20px;
+    width: 44px;
+    height: 47px;
+    cursor: pointer;
+}
+
+.counter-box p{
+    font-size: 20px;
+    width: 44px;
+    text-align: center;
+}
+
+table td svg{
+    cursor: pointer;
+}
+
+.coupon-box input{
+    height: 40px;
+    border: none;
+    box-shadow: 1px 1px 1px  #ddd9d9;
+    margin: 0 10px;
+}
+
+.coupon-box button{
+    height: 42px;
+    width: 70px;
+    background: white;
+    border: none;
+    box-shadow: 1px 1px 1px  #ddd9d9;
+    cursor: pointer;
+
+}
+
+.shipping-box{
+    display: flex;
+    margin: 10px;
+}
+
+.shipping-box input{
+    margin-right: 10px;
+}
+
+@media (max-width: 500px){
+    section table th, table td{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

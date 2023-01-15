@@ -1,0 +1,12 @@
+[
+    { "name": "Apple", "industry": "Technology" },
+    { "name": "Microsoft", "industry": "Technology" },
+    { "name": "Amazon", "industry": "Technology" },
+    { "name": "Alphabet (Google)", "industry": "Technology" },
+    { "name": "Facebook", "industry": "Technology" },
+    { "name": "IBM", "industry": "Technology" },
+    { "name": "Intel", "industry": "Technology" },
+    { "name": "Cisco", "industry": "Technology" },
+    { "name": "Oracle", "industry": "Technology" },
+    { "name": "HP", "industry": "Technology" }
+]

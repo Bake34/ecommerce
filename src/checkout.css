@@ -1,0 +1,136 @@
+
+.section{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.grid-signup{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+
+
+.signup-allign{
+    width: 50%;
+}
+
+.signup-allign h1, .signup-allign h3{
+    margin: 10px 0;
+}
+
+.grid-signup input{
+    border: none;
+    background-color: #f6f7fb;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    font-size: 20px;
+    padding-left: 6px;
+}
+
+.country-col{
+    position: relative;
+}
+
+.country{
+    position: relative;
+}
+
+.list, .list2 {
+    position: absolute;
+    border: 1px solid #ddd9d9;
+    background-color: white;
+    padding: 0;
+    overflow: scroll;
+    width: 100%;
+    height: 200px;
+}
+
+
+.list2{
+    z-index: 10;
+}
+
+.list li, .list2 li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+    display: block;
+    
+}
+
+.payment-box{
+    border: 1px solid #ddd9d9;
+    width: 20%;
+    padding: 15px;
+    margin: auto 0;
+}
+
+.payment-box *{
+    padding: 5px;
+}
+
+.flexed-box{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd9d9;
+}
+
+.flexed-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-container svg, .svg{
+    font-size: 30px;
+}
+
+.button-box{
+    display: flex;
+    justify-content: center;
+}
+
+.button-box button{
+    background-color: #222222;
+    color: white;
+    padding: 1em 1.5em;
+    border: none;
+    transition: all .5s;
+}
+
+.button-box button:hover{
+    background-color: #f7941d;
+
+}
+
+@media (max-width: 500px){
+
+
+    .section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-signup{
+        grid-template-columns: auto;
+    }
+
+    .signup-allign{
+        width: 90%;
+    }
+
+    .payment-box{
+        width: 90%;
+    }
+}

@@ -1,0 +1,92 @@
+{
+  "countries": [
+    {
+      "name": "United States",
+      "capital": "Washington, D.C."
+    },
+    {
+      "name": "India",
+      "capital": "New Delhi"
+    },
+    {
+      "name": "China",
+      "capital": "Beijing"
+    },
+    {
+      "name": "Russia",
+      "capital": "Moscow"
+    },
+    {
+      "name": "Mexico",
+      "capital": "Mexico City"
+    },
+    {
+      "name": "Japan",
+      "capital": "Tokyo"
+    },
+    {
+      "name": "Philippines",
+      "capital": "Manila"
+    },
+    {
+      "name": "Vietnam",
+      "capital": "Hanoi"
+    },
+    {
+      "name": "Egypt",
+      "capital": "Cairo"
+    },
+    {
+      "name": "Iran",
+      "capital": "Tehran"
+    },
+    {
+      "name": "Iraq",
+      "capital": "Baghdad"
+    },
+    {
+      "name": "North Korea",
+      "capital": "Pyongyang"
+    },
+    {
+      "name": "South Korea",
+      "capital": "Seoul"
+    },
+    {
+      "name": "Spain",
+      "capital": "Madrid"
+    },
+    {
+      "name": "France",
+      "capital": "Paris"
+    },
+    {
+      "name": "Germany",
+      "capital": "Berlin"
+    },
+    {
+      "name": "United Kingdom",
+      "capital": "London"
+    },
+    {
+      "name": "Italy",
+      "capital": "Rome"
+    },
+    {
+      "name": "Canada",
+      "capital": "Ottawa"
+    },
+    {
+      "name": "Australia",
+      "capital": "Canberra"
+    },
+    {
+      "name": "Brazil",
+      "capital": "Brasília"
+    },
+    {
+      "name": "Argentina",
+      "capital": "Buenos Aires"
+    }
+  ]
+}
