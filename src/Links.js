@@ -106,7 +106,7 @@ export default function Links(){
     return (
         <>
         <Routes>
-            <Route path="/" element={<App pageProducts={pageProducts} itemProducts={itemProducts}
+            <Route path="/e-commerce" element={<App pageProducts={pageProducts} itemProducts={itemProducts}
              handleAddProduct={handleAddProduct}/>}/>
             <Route path="/cart" element={<Cart itemProducts={itemProducts}
             removeEverything={removeEverything} 
