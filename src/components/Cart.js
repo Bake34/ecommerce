@@ -1,53 +1,9 @@
-import { useState } from 'react';
 import {FaRegTrashAlt} from "react-icons/fa";
 import "../Cart.css";
 import Nav from "./Navbar";
 import Footer from "./Footer";
 
 export default function Cart({itemProducts, handleAddProduct, handleRemoveProduct, removeEverything}){
-
-
-const [addToCart, setAddToCart] = useState(false);
-
-
-const products = [
-  {
-    image: "women-dress",
-    title: "Women Dress",
-    info: "Maboriosam in a tonto nesciung eget distingy magndapibus.",
-    price: "110.00",
-    total: "",
-  },
-  {
-    image: "cart1",
-    title: "Women Dress",
-    info: "Maboriosam in a tonto nesciung eget distingy magndapibus.",
-    price: "99.99",
-    total: "",
-  },
-  {
-    image: "cart3",
-    title: "Women Dress",
-    info: "Maboriosam in a tonto nesciung eget distingy magndapibus.",
-    price: "89.99",
-    total: "",
-  },
-  // {
-  //   image: "./pictures/women-dress.jpg",
-  //   title: "",
-  //   info: "",
-  //   price: "",
-  //   total: "",
-  // },
-  // {
-  //   image: "./pictures/women-dress.jpg",
-  //   title: "",
-  //   info: "",
-  //   price: "",
-  //   total: "",
-  // },
-]
-
 
     return (<>
      <div>

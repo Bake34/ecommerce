@@ -1,7 +1,7 @@
 import App from "./App";
 import Cart from "./components/Cart";
 import Checkout from "./components/Checkout"
-import {Routes, Route, Link} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import React, { useState } from 'react';
 
 
@@ -106,7 +106,7 @@ export default function Links(){
     return (
         <>
         <Routes>
-            <Route path="/e-commerce" element={<App pageProducts={pageProducts} itemProducts={itemProducts}
+            <Route path="/" element={<App pageProducts={pageProducts} itemProducts={itemProducts}
              handleAddProduct={handleAddProduct}/>}/>
             <Route path="/cart" element={<Cart itemProducts={itemProducts}
             removeEverything={removeEverything} 
